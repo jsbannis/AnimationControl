@@ -72,7 +72,7 @@ namespace AnimationControl
                 frameRect.y + height / 2.0f,
                 width,
                 height);
-            GUI.Label(headerRect, "Turbo Units");
+            GUI.Label(headerRect, "Animation Control");
 
             // Slider
             GUI.skin = _settingsSkin;
